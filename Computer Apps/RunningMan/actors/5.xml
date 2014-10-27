@@ -214,14 +214,14 @@
         </behavior>
       </behaviors>
     </behavior>
-    <behavior id="id651739" class="RuleBehavior" enabled="true">
+    <behavior id="id748761" class="RuleBehavior" enabled="true">
       <attributes>
         <text id="name">Rule</text>
         <text id="bundleName">Rule.behavior</text>
-        <real id="compoundConditionKind">1</real>
+        <real id="compoundConditionKind">0</real>
       </attributes>
       <conditions>
-        <condition id="id432337" eventType="key" pluginPredicateTypeIndex="0" class="Key">
+        <condition id="id961407" eventType="key" pluginPredicateTypeIndex="0" class="Key">
           <attributes>
             <text id="name">default name</text>
             <index id="conditionType">0</index>
@@ -234,6 +234,36 @@
           </predicate>
         </condition>
       </conditions>
+      <behaviors>
+        <behavior id="id503696" class="ChangeAttributeAction" enabled="true">
+          <attributes>
+            <text id="name">Change Attribute</text>
+            <text id="bundleName">ChangeAttribute.behavior</text>
+            <text id="targetAttribute">self.attributes.id208524</text>
+            <text id="RHS">2</text>
+          </attributes>
+        </behavior>
+        <behavior id="id966763" class="AnimateBehavior" enabled="true">
+          <attributes>
+            <text id="name">Animate</text>
+            <text id="bundleName">Animate.behavior</text>
+            <text id="images">RunM 1	RunM 2	RunM 3	RunM 4	RunM 5	RunM 6</text>
+            <index id="speed">5</index>
+            <boolean id="loop">true</boolean>
+            <boolean id="restoreActorImage">false</boolean>
+          </attributes>
+        </behavior>
+        <behavior id="id271798" class="MoveBehavior" enabled="true">
+          <attributes>
+            <text id="name">Move</text>
+            <text id="bundleName">Move.behavior</text>
+            <angle id="direction">90</angle>
+            <index id="space">0</index>
+            <index id="moveType">0</index>
+            <real id="speed">30</real>
+          </attributes>
+        </behavior>
+      </behaviors>
     </behavior>
   </behaviors>
   <aspects>
