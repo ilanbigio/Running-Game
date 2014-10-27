@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<game GSCVersion="0.10.5" PGFVersion="0.19" title="My Great Project">
+  <attributes>
+    <text id="name">default name</text>
+    <real id="time">0</real>
+    <size id="displaySize">
+      <real id="width">480</real>
+      <real id="height">320</real>
+    </size>
+    <text id="actorTags">All	Entities	Opening	Game Scene</text>
+    <integer id="id889598" name="Scene">0</integer>
+  </attributes>
+  <tags />
+  <resolutionIndependence>0</resolutionIndependence>
+  <instructions>Add game instructions here.</instructions>
+  <resolution>0</resolution>
+  <longDescription>A simple game.</longDescription>
+  <prototypes>
+    <actor id="id418139" />
+    <actor id="id643890" />
+    <actor id="id746064" />
+    <actor id="id878364" />
+    <actor id="id335994" />
+  </prototypes>
+  <plugins />
+  <scenes>
+    <scene id="id764160" />
+    <scene id="id431631" />
+  </scenes>
+</game>

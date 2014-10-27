@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assets PGFVersion="0.19" GSCVersion="0.10.5">
+  <sounds />
+  <images>
+    <image name="RunningMan Title Sreen">
+      <file name="RunningMan Title Sreen.png" size="225125" />
+    </image>
+    <image name="RunningMan Play Button">
+      <file name="RunningMan Play Button.png" size="511" />
+    </image>
+    <image name="RunningMan Game Bg">
+      <file name="RunningMan Game Bg.png" size="3518" />
+    </image>
+    <image name="RunM 1">
+      <file name="RunM 1.png" size="5699" />
+    </image>
+    <image name="RunM 2">
+      <file name="RunM 2.png" size="5105" />
+    </image>
+    <image name="RunM 3">
+      <file name="RunM 3.png" size="5387" />
+    </image>
+    <image name="RunM 4">
+      <file name="RunM 4.png" size="4173" />
+    </image>
+    <image name="RunM 5">
+      <file name="RunM 5.png" size="5144" />
+    </image>
+    <image name="RunM 6">
+      <file name="RunM 6.png" size="1883" />
+    </image>
+  </images>
+  <behaviors />
+</assets>
