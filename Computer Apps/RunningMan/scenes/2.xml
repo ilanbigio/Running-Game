@@ -3,11 +3,11 @@
   <layers>
     <layer id="id493490">
       <actors>
-        <actor id="id619806" prototype="id878364">
+        <actor id="id447389" prototype="id677403">
           <attributes>
             <point id="position">
-              <real id="x">358.5</real>
-              <real id="y">239.5</real>
+              <real id="x">361</real>
+              <real id="y">240</real>
             </point>
             <size id="size">
               <real id="width">720</real>
@@ -17,9 +17,36 @@
           </attributes>
           <aspects>
             <graphics>
+              <attributes />
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id983300" prototype="id980451">
+          <attributes>
+            <point id="position">
+              <real id="x">368</real>
+              <real id="y">241</real>
+            </point>
+            <size id="size">
+              <real id="width">771</real>
+              <real id="height">501</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <color id="color">
+              <real id="red">0.286274509803922</real>
+              <real id="green">0.572549019607843</real>
+              <real id="blue">0.0392156862745098</real>
+              <real id="alpha">0.694117647058824</real>
+            </color>
+          </attributes>
+          <aspects>
+            <graphics>
               <attributes>
-                <integer id="tileWidth" name="tileWidth">0</integer>
-                <integer id="tileHeight" name="tileHeight">0</integer>
+                <enumeration id="blendingMode">0</enumeration>
               </attributes>
             </graphics>
             <motion />
@@ -31,8 +58,8 @@
         <actor id="id725636" prototype="id335994">
           <attributes>
             <point id="position">
-              <real id="x">244.22283805893</real>
-              <real id="y">189.908698223675</real>
+              <real id="x">216.22283805893</real>
+              <real id="y">418.908698223675</real>
             </point>
             <size id="size">
               <real id="width">262.44567611786</real>
@@ -41,12 +68,15 @@
             <angle id="rotation">0</angle>
             <image id="image">RunM 5</image>
             <integer id="id208524" name="Moving">0</integer>
+            <integer id="id236230" name="Jump">-7000</integer>
+            <integer id="id765397" name="Timer">0</integer>
           </attributes>
           <aspects>
             <graphics>
               <attributes>
                 <integer id="tileWidth" name="tileWidth">0</integer>
                 <integer id="tileHeight" name="tileHeight">0</integer>
+                <enumeration id="blendingMode">0</enumeration>
               </attributes>
             </graphics>
             <motion />

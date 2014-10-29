@@ -1,39 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id677403" PGFVersion="0.19" GSCVersion="0.10.5">
+<actor id="id980451" PGFVersion="0.19" GSCVersion="0.10.5">
   <attributes>
-    <text id="name">Forrest Bg</text>
+    <text id="name">Actor 1</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
       <real id="y">0</real>
     </point>
     <size id="size">
-      <real id="width">384</real>
-      <real id="height">256</real>
+      <real id="width">120</real>
+      <real id="height">120</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
-      <real id="red">1</real>
-      <real id="green">1</real>
-      <real id="blue">1</real>
+      <real id="red">0.32156862745098</real>
+      <real id="green">0.890196078431373</real>
+      <real id="blue">0.654901960784314</real>
       <real id="alpha">1</real>
     </color>
-    <image id="image">frame_000</image>
-    <text id="tags">Game Scene</text>
+    <image id="image" />
+    <text id="tags" />
     <boolean id="preloadArt">true</boolean>
   </attributes>
-  <behaviors>
-    <behavior id="id167379" class="AnimateBehavior" enabled="true">
-      <attributes>
-        <text id="name">Animate</text>
-        <text id="bundleName">Animate.behavior</text>
-        <text id="images">frame_000	frame_001	frame_002	frame_003	frame_004	frame_005	frame_006	frame_007	frame_008	frame_009	frame_010	frame_011	frame_012	frame_013	frame_014	frame_015	frame_016	frame_017	frame_018	frame_019	frame_020	frame_021	frame_022	frame_023	frame_024	frame_025	frame_026	frame_027	frame_028	frame_029	frame_030	frame_031	frame_032	frame_033	frame_034	frame_035	frame_036	frame_037	frame_038	frame_039	frame_040	frame_041	frame_042	frame_043	frame_044	frame_045	frame_046	frame_047	frame_048</text>
-        <index id="speed">24</index>
-        <boolean id="loop">true</boolean>
-        <boolean id="restoreActorImage">true</boolean>
-      </attributes>
-    </behavior>
-  </behaviors>
+  <behaviors />
   <aspects>
     <graphics>
       <attributes>
@@ -45,8 +34,8 @@
         <enumeration id="verticalAnchor">0</enumeration>
         <boolean id="flipHorizontally">false</boolean>
         <boolean id="flipVertically">false</boolean>
-        <integer id="tileWidth">384</integer>
-        <integer id="tileHeight">256</integer>
+        <integer id="tileWidth">0</integer>
+        <integer id="tileHeight">0</integer>
       </attributes>
     </graphics>
     <motion>

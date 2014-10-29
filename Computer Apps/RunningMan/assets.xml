@@ -11,9 +11,6 @@
     <image name="RunningMan Game Bg">
       <file name="RunningMan Game Bg.png" size="3518" />
     </image>
-    <image name="RunM 1">
-      <file name="RunM 1.png" size="5699" />
-    </image>
     <image name="RunM 2">
       <file name="RunM 2.png" size="5105" />
     </image>
@@ -28,6 +25,156 @@
     </image>
     <image name="RunM 6">
       <file name="RunM 6.png" size="1883" />
+    </image>
+    <image name="RunM 1">
+      <file name="RunM 1.png" size="4840" />
+    </image>
+    <image name="frame_000">
+      <file name="frame_000.png" size="5828" />
+    </image>
+    <image name="frame_001">
+      <file name="frame_001.png" size="5793" />
+    </image>
+    <image name="frame_002">
+      <file name="frame_002.png" size="5795" />
+    </image>
+    <image name="frame_003">
+      <file name="frame_003.png" size="5808" />
+    </image>
+    <image name="frame_004">
+      <file name="frame_004.png" size="5808" />
+    </image>
+    <image name="frame_005">
+      <file name="frame_005.png" size="5812" />
+    </image>
+    <image name="frame_006">
+      <file name="frame_006.png" size="5764" />
+    </image>
+    <image name="frame_007">
+      <file name="frame_007.png" size="5811" />
+    </image>
+    <image name="frame_008">
+      <file name="frame_008.png" size="5856" />
+    </image>
+    <image name="frame_009">
+      <file name="frame_009.png" size="5792" />
+    </image>
+    <image name="frame_010">
+      <file name="frame_010.png" size="5791" />
+    </image>
+    <image name="frame_011">
+      <file name="frame_011.png" size="5786" />
+    </image>
+    <image name="frame_012">
+      <file name="frame_012.png" size="5776" />
+    </image>
+    <image name="frame_013">
+      <file name="frame_013.png" size="5727" />
+    </image>
+    <image name="frame_014">
+      <file name="frame_014.png" size="5837" />
+    </image>
+    <image name="frame_015">
+      <file name="frame_015.png" size="5819" />
+    </image>
+    <image name="frame_016">
+      <file name="frame_016.png" size="5810" />
+    </image>
+    <image name="frame_017">
+      <file name="frame_017.png" size="5845" />
+    </image>
+    <image name="frame_018">
+      <file name="frame_018.png" size="5635" />
+    </image>
+    <image name="frame_019">
+      <file name="frame_019.png" size="5873" />
+    </image>
+    <image name="frame_020">
+      <file name="frame_020.png" size="5773" />
+    </image>
+    <image name="frame_021">
+      <file name="frame_021.png" size="5770" />
+    </image>
+    <image name="frame_022">
+      <file name="frame_022.png" size="5884" />
+    </image>
+    <image name="frame_023">
+      <file name="frame_023.png" size="5900" />
+    </image>
+    <image name="frame_024">
+      <file name="frame_024.png" size="5882" />
+    </image>
+    <image name="frame_025">
+      <file name="frame_025.png" size="5901" />
+    </image>
+    <image name="frame_026">
+      <file name="frame_026.png" size="5911" />
+    </image>
+    <image name="frame_027">
+      <file name="frame_027.png" size="5879" />
+    </image>
+    <image name="frame_028">
+      <file name="frame_028.png" size="5846" />
+    </image>
+    <image name="frame_029">
+      <file name="frame_029.png" size="5819" />
+    </image>
+    <image name="frame_030">
+      <file name="frame_030.png" size="5874" />
+    </image>
+    <image name="frame_031">
+      <file name="frame_031.png" size="5837" />
+    </image>
+    <image name="frame_032">
+      <file name="frame_032.png" size="5866" />
+    </image>
+    <image name="frame_033">
+      <file name="frame_033.png" size="5774" />
+    </image>
+    <image name="frame_034">
+      <file name="frame_034.png" size="5598" />
+    </image>
+    <image name="frame_035">
+      <file name="frame_035.png" size="5748" />
+    </image>
+    <image name="frame_036">
+      <file name="frame_036.png" size="5858" />
+    </image>
+    <image name="frame_037">
+      <file name="frame_037.png" size="5864" />
+    </image>
+    <image name="frame_038">
+      <file name="frame_038.png" size="5902" />
+    </image>
+    <image name="frame_039">
+      <file name="frame_039.png" size="5925" />
+    </image>
+    <image name="frame_040">
+      <file name="frame_040.png" size="5938" />
+    </image>
+    <image name="frame_041">
+      <file name="frame_041.png" size="5932" />
+    </image>
+    <image name="frame_042">
+      <file name="frame_042.png" size="5940" />
+    </image>
+    <image name="frame_043">
+      <file name="frame_043.png" size="5915" />
+    </image>
+    <image name="frame_044">
+      <file name="frame_044.png" size="5887" />
+    </image>
+    <image name="frame_045">
+      <file name="frame_045.png" size="5831" />
+    </image>
+    <image name="frame_046">
+      <file name="frame_046.png" size="5921" />
+    </image>
+    <image name="frame_047">
+      <file name="frame_047.png" size="5876" />
+    </image>
+    <image name="frame_048">
+      <file name="frame_048.png" size="5858" />
     </image>
   </images>
   <behaviors />
