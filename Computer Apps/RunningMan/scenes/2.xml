@@ -6,7 +6,7 @@
         <actor id="id447389" prototype="id677403">
           <attributes>
             <point id="position">
-              <real id="x">361</real>
+              <real id="x">362</real>
               <real id="y">240</real>
             </point>
             <size id="size">
@@ -31,8 +31,8 @@
         <actor id="id983300" prototype="id980451">
           <attributes>
             <point id="position">
-              <real id="x">368</real>
-              <real id="y">241</real>
+              <real id="x">373</real>
+              <real id="y">251</real>
             </point>
             <size id="size">
               <real id="width">771</real>
@@ -63,8 +63,8 @@
         <actor id="id725636" prototype="id335994">
           <attributes>
             <point id="position">
-              <real id="x">216.22283805893</real>
-              <real id="y">418.908698223675</real>
+              <real id="x">211.22283805893</real>
+              <real id="y">122.908698223675</real>
             </point>
             <size id="size">
               <real id="width">262.44567611786</real>
@@ -76,6 +76,300 @@
             <integer id="id236230" name="Jump">-7000</integer>
             <integer id="id765397" name="Timer">0</integer>
           </attributes>
+          <behaviors>
+            <behavior id="id477456" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Run Animation</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">1</real>
+              </attributes>
+              <conditions>
+                <condition id="id538563" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                  <attributes>
+                    <index id="conditionType">1</index>
+                    <text id="subjectAttribute">self.attributes.id208524</text>
+                    <text id="name">default name</text>
+                  </attributes>
+                  <predicate type="number">
+                    <attributes>
+                      <text id="operator">=</text>
+                      <real id="RHS">0</real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id272356" class="AnimateBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Animate</text>
+                    <text id="bundleName">Animate.behavior</text>
+                    <text id="images">RunM 1	RunM 2	RunM 3	RunM 4	RunM 5	RunM 6</text>
+                    <index id="speed">20</index>
+                    <boolean id="loop">true</boolean>
+                    <boolean id="restoreActorImage">true</boolean>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id951992" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Run Forwad</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id370613" eventType="key" pluginPredicateTypeIndex="0" class="Key">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="key">
+                    <attributes>
+                      <text id="mode">down</text>
+                      <text id="keyString">right</text>
+                    </attributes>
+                  </predicate>
+                </condition>
+                <condition id="id607769" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                  <attributes>
+                    <index id="conditionType">1</index>
+                    <text id="subjectAttribute">self.attributes.position.x</text>
+                    <text id="name">default name</text>
+                  </attributes>
+                  <predicate type="number">
+                    <attributes>
+                      <text id="operator">&lt;</text>
+                      <real id="RHS">670</real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id774199" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">self.attributes.id208524</text>
+                    <text id="RHS">1</text>
+                  </attributes>
+                </behavior>
+                <behavior id="id300705" class="AnimateBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Animate</text>
+                    <text id="bundleName">Animate.behavior</text>
+                    <text id="images">RunM 1	RunM 2	RunM 3	RunM 4	RunM 5	RunM 6</text>
+                    <index id="speed">24</index>
+                    <boolean id="loop">true</boolean>
+                    <boolean id="restoreActorImage">true</boolean>
+                  </attributes>
+                </behavior>
+                <behavior id="id787469" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">self.aspects.motion.attributes.linearVelocity.x</text>
+                    <text id="RHS">150</text>
+                  </attributes>
+                </behavior>
+              </behaviors>
+              <elseBehaviors>
+                <behavior id="id156619" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">self.aspects.motion.attributes.linearVelocity.x</text>
+                    <text id="RHS">0</text>
+                  </attributes>
+                </behavior>
+              </elseBehaviors>
+            </behavior>
+            <behavior id="id651452" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Run Back</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id258814" eventType="key" pluginPredicateTypeIndex="0" class="Key">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="key">
+                    <attributes>
+                      <text id="mode">down</text>
+                      <text id="keyString">left</text>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id894810" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">self.attributes.id208524</text>
+                    <text id="RHS">-1</text>
+                  </attributes>
+                </behavior>
+                <behavior id="id215538" class="AnimateBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Animate</text>
+                    <text id="bundleName">Animate.behavior</text>
+                    <text id="images">RunM 1	RunM 2	RunM 3	RunM 4	RunM 5	RunM 6</text>
+                    <index id="speed">16</index>
+                    <boolean id="loop">true</boolean>
+                    <boolean id="restoreActorImage">true</boolean>
+                  </attributes>
+                </behavior>
+                <behavior id="id231349" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">self.aspects.motion.attributes.linearVelocity.x</text>
+                    <text id="RHS">-150</text>
+                  </attributes>
+                </behavior>
+              </behaviors>
+              <elseBehaviors>
+                <behavior id="id585199" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">self.aspects.motion.attributes.linearVelocity.x</text>
+                    <text id="RHS">0</text>
+                  </attributes>
+                </behavior>
+              </elseBehaviors>
+            </behavior>
+            <behavior id="id460477" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Run When Nothing</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id796499" eventType="key" pluginPredicateTypeIndex="0" class="Key">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="key">
+                    <attributes>
+                      <text id="mode">up</text>
+                      <text id="keyString">left</text>
+                    </attributes>
+                  </predicate>
+                </condition>
+                <condition id="id550027" eventType="key" pluginPredicateTypeIndex="0" class="Key">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="key">
+                    <attributes>
+                      <text id="mode">up</text>
+                      <text id="keyString">right</text>
+                    </attributes>
+                  </predicate>
+                </condition>
+                <condition id="id888269" eventType="key" pluginPredicateTypeIndex="0" class="Key">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="key">
+                    <attributes>
+                      <text id="mode">up</text>
+                      <text id="keyString">up</text>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id904580" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">self.attributes.id208524</text>
+                    <text id="RHS">0</text>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id807878" class="AccelerateBehavior" enabled="true">
+              <attributes>
+                <text id="name">Fall Sauce</text>
+                <text id="bundleName">Accelerate.behavior</text>
+                <angle id="direction">270</angle>
+                <index id="space">0</index>
+                <real id="acceleration">1000</real>
+              </attributes>
+            </behavior>
+            <behavior id="id711972" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Jump</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">1</real>
+              </attributes>
+              <conditions>
+                <condition id="id258674" eventType="key" pluginPredicateTypeIndex="0" class="Key">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="key">
+                    <attributes>
+                      <text id="mode">down</text>
+                      <text id="keyString">up</text>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id336588" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">self.aspects.motion.attributes.linearVelocity.y</text>
+                    <text id="RHS">400</text>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id398431" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Magic Wall</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id653440" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                  <attributes>
+                    <index id="conditionType">1</index>
+                    <text id="subjectAttribute">self.attributes.position.x</text>
+                    <text id="name">default name</text>
+                  </attributes>
+                  <predicate type="number">
+                    <attributes>
+                      <text id="operator">&gt;=</text>
+                      <real id="RHS">750</real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id809143" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">self.aspects.motion.attributes.linearVelocity.x</text>
+                    <text id="RHS">-10</text>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
           <aspects>
             <graphics>
               <attributes>
@@ -84,9 +378,59 @@
                 <enumeration id="blendingMode">0</enumeration>
               </attributes>
             </graphics>
+            <motion>
+              <attributes>
+                <real id="angularVelocity">0</real>
+              </attributes>
+            </motion>
+            <physics>
+              <attributes>
+                <real id="restitution">0.1</real>
+                <real id="friction">2</real>
+              </attributes>
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id681382" prototype="id392235">
+          <attributes>
+            <point id="position">
+              <real id="x">357</real>
+              <real id="y">-12.5</real>
+            </point>
+            <size id="size">
+              <real id="width">880</real>
+              <real id="height">61</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <color id="color">
+              <real id="red">1</real>
+              <real id="green">1</real>
+              <real id="blue">1</real>
+              <real id="alpha">0</real>
+            </color>
+          </attributes>
+          <behaviors>
+            <behavior id="id988959" class="CollideBehavior" enabled="true">
+              <attributes>
+                <text id="name">Collide</text>
+                <text id="bundleName">Collide.behavior</text>
+                <text id="prototypeKey">id335994</text>
+                <text id="actorTag">Ground</text>
+                <index id="mode">0</index>
+              </attributes>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes />
+            </graphics>
             <motion />
             <physics>
-              <attributes />
+              <attributes>
+                <real id="restitution">0.2</real>
+                <real id="friction">0</real>
+                <boolean id="fixedRotation">true</boolean>
+              </attributes>
             </physics>
           </aspects>
         </actor>
