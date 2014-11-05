@@ -7,7 +7,7 @@
       <real id="width">480</real>
       <real id="height">320</real>
     </size>
-    <text id="actorTags">All	Entities	Opening	Game Scene</text>
+    <text id="actorTags">All	Entities	Opening	Game Scene	Collide</text>
     <integer id="id889598" name="Scene">0</integer>
   </attributes>
   <tags />
@@ -23,6 +23,8 @@
     <actor id="id677403" />
     <actor id="id980451" />
     <actor id="id392235" />
+    <actor id="id799594" />
+    <actor id="id313413" />
   </prototypes>
   <plugins />
   <scenes>

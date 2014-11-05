@@ -176,6 +176,9 @@
     <image name="frame_048">
       <file name="frame_048.png" size="5858" />
     </image>
+    <image name="Crate">
+      <file name="Crate.png" size="475" />
+    </image>
   </images>
   <behaviors />
 </assets>

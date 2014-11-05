@@ -130,19 +130,6 @@
                     </attributes>
                   </predicate>
                 </condition>
-                <condition id="id607769" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
-                  <attributes>
-                    <index id="conditionType">1</index>
-                    <text id="subjectAttribute">self.attributes.position.x</text>
-                    <text id="name">default name</text>
-                  </attributes>
-                  <predicate type="number">
-                    <attributes>
-                      <text id="operator">&lt;</text>
-                      <real id="RHS">670</real>
-                    </attributes>
-                  </predicate>
-                </condition>
               </conditions>
               <behaviors>
                 <behavior id="id774199" class="ChangeAttributeAction" enabled="true">
@@ -310,7 +297,7 @@
               <attributes>
                 <text id="name">Jump</text>
                 <text id="bundleName">Rule.behavior</text>
-                <real id="compoundConditionKind">1</real>
+                <real id="compoundConditionKind">0</real>
               </attributes>
               <conditions>
                 <condition id="id258674" eventType="key" pluginPredicateTypeIndex="0" class="Key">
@@ -325,6 +312,19 @@
                     </attributes>
                   </predicate>
                 </condition>
+                <condition id="id866756" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="collision">
+                    <attributes>
+                      <text id="prototypeKey" />
+                      <text id="actorTag">Collide</text>
+                      <real id="mode">1</real>
+                    </attributes>
+                  </predicate>
+                </condition>
               </conditions>
               <behaviors>
                 <behavior id="id336588" class="ChangeAttributeAction" enabled="true">
@@ -333,38 +333,6 @@
                     <text id="bundleName">ChangeAttribute.behavior</text>
                     <text id="targetAttribute">self.aspects.motion.attributes.linearVelocity.y</text>
                     <text id="RHS">400</text>
-                  </attributes>
-                </behavior>
-              </behaviors>
-            </behavior>
-            <behavior id="id398431" class="RuleBehavior" enabled="true">
-              <attributes>
-                <text id="name">Magic Wall</text>
-                <text id="bundleName">Rule.behavior</text>
-                <real id="compoundConditionKind">0</real>
-              </attributes>
-              <conditions>
-                <condition id="id653440" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
-                  <attributes>
-                    <index id="conditionType">1</index>
-                    <text id="subjectAttribute">self.attributes.position.x</text>
-                    <text id="name">default name</text>
-                  </attributes>
-                  <predicate type="number">
-                    <attributes>
-                      <text id="operator">&gt;=</text>
-                      <real id="RHS">750</real>
-                    </attributes>
-                  </predicate>
-                </condition>
-              </conditions>
-              <behaviors>
-                <behavior id="id809143" class="ChangeAttributeAction" enabled="true">
-                  <attributes>
-                    <text id="name">Change Attribute</text>
-                    <text id="bundleName">ChangeAttribute.behavior</text>
-                    <text id="targetAttribute">self.aspects.motion.attributes.linearVelocity.x</text>
-                    <text id="RHS">-10</text>
                   </attributes>
                 </behavior>
               </behaviors>
@@ -422,7 +390,10 @@
           </behaviors>
           <aspects>
             <graphics>
-              <attributes />
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
             </graphics>
             <motion />
             <physics>
@@ -430,6 +401,30 @@
                 <real id="restitution">0.2</real>
                 <real id="friction">0</real>
                 <boolean id="fixedRotation">true</boolean>
+              </attributes>
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id253352" prototype="id313413">
+          <attributes>
+            <point id="position">
+              <real id="x">395.5</real>
+              <real id="y">72.5</real>
+            </point>
+            <size id="size">
+              <real id="width">76</real>
+              <real id="height">76</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes />
+            </graphics>
+            <motion />
+            <physics>
+              <attributes>
+                <real id="restitution">0</real>
               </attributes>
             </physics>
           </aspects>
